@@ -1,20 +1,20 @@
 # vermi-city-automated-bin
 
-# Vermi-city: A Micro-Solution to a Macro-Waste Problem 🪱
+# Vermi-city: A Micro-Solution to a Macro-Waste Problem 
 
 Vermi-city is an automated, sensor-based monitoring and control system for a vermicomposting unit. It leverages biotechnology and embedded systems to maintain optimal environmental conditions for earthworms, ensuring maximum decomposition efficiency.
 
 Built as a 1st-semester project at **Dayananda Sagar College of Engineering (DSCE)**, Bangalore.
 
-## 🚨 Problem Statement
+## Problem Statement
 Traditional vermicomposting requires labor-intensive manual monitoring. Reliance on manual intervention leads to inconsistent operational conditions, such as improper moisture and temperature levels, which can decrease compost quality or harm the worm colony.
 
-## 🛠️ The Solution: Automated Control
+## The Solution: Automated Control
 We developed a real-time, closed-loop control system that monitors the environment and autonomously manages actuators to keep parameters within the "Optimal Zone":
 * **Temperature:** 25.5°C
 * **Moisture:** 60-80% (equivalent to a wrung-out sponge)
 
-## 🏗️ Hardware Architecture
+## Hardware Architecture
 
 | Component | Role | Details |
 | :--- | :--- | :--- |
@@ -26,12 +26,12 @@ We developed a real-time, closed-loop control system that monitors the environme
 | **L298N Motor Driver** | Actuator Control | Manages external power for high-current components |
 | **16x2 I2C LCD** | User Interface | Displays real-time temperature and moisture data |
 
-### ⚡ Key Engineering Takeaway: Power Management
+### Key Engineering Takeaway: Power Management
 A critical challenge in this project was the **Power Rail Distribution**. We utilized an external **12V DC power supply** via a **female DC barrel jack**. 
 * **High-Current Rail:** The 12V supply was routed to the L298N driver to power the fan and pump.
 * **Logic Rail:** We ensured a shared common ground to protect the Arduino and sensors, preventing the MCU from "burning" during the inductive spikes caused by the peristaltic pump.
 
-## 💻 Control Logic (C++)
+## Control Logic (C++)
 
 The system samples data every second and acts based on the following threshold logic:
 
@@ -103,3 +103,31 @@ void loop() {
 
   delay(1000); 
 }
+```
+## Limitations
+While the current prototype successfully maintains the environment, there are technical constraints to address in future versions:
+* **Manual Calibration:** The soil moisture mapping is currently based on specific laboratory soil conditions; different soil types would require manual re-calibration of the analog thresholds.
+* **Power Persistence:** In the event of a power cycle, the system does not currently log "State" history (e.g., how long the pump has been running cumulatively).
+* **Local Monitoring Only:** Data visualization is currently limited to the physical 16x2 LCD, requiring physical proximity to check system health.
+
+## Future Outlook
+* **IoT Integration (ESP32):** Replacing the Arduino Uno with an ESP32 to push real-time data to a cloud dashboard (Blynk/Thingspeak) for remote monitoring.
+* **Machine Learning for Bioconversion:** Implementing ML algorithms to predict the optimal time for compost harvesting based on temperature and moisture trends over time.
+* **Solar Integration:** Adding a solar panel and Li-Ion battery management system to make the unit completely off-grid and self-sustaining.
+* **pH Level Automation:** Integrating a pH sensor and a secondary dosing pump to maintain a strictly neutral environment (pH 6.5 - 8.0).
+
+## Credits & Acknowledgments
+**[span_0](start_span)Project Title:** Vermi-city: A Micro-Solution to Macro-Waste [span_0](end_span)  
+**[span_1](start_span)Institution:** Dayananda Sagar College of Engineering (DSCE), Bangalore[span_1](end_span)  
+**[span_2](start_span)Department:** Electronics & Communication Engineering[span_2](end_span)  
+**[span_3](start_span)Course:** Innovation and Design Thinking Lab (1BIDTL108)[span_3](end_span)  
+
+### The Development Team (Batch A6):
+* **[span_4](start_span)Jia Pamelin D souza** (1DS25EC119)[span_4](end_span)
+* **[span_5](start_span)Medha T G** (1DS25EC159)[span_5](end_span)
+* **[span_6](start_span)Vismaya Vishwas** (1DS25EC301)[span_6](end_span)
+* **[span_7](start_span)Shrushti Akki** (1DS25EC254)[span_7](end_span)
+
+**[span_8](start_span)Supervised by:** Dr. Sapna P J[span_8](end_span)
+
+---
