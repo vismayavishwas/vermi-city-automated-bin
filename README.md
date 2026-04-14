@@ -116,11 +116,11 @@ While the current prototype successfully maintains the environment, there are te
 * **Solar Integration:** Adding a solar panel and Li-Ion battery management system to make the unit completely off-grid and self-sustaining.
 * **pH Level Automation:** Integrating a pH sensor and a secondary dosing pump to maintain a strictly neutral environment (pH 6.5 - 8.0).
 
-## Credits & Acknowledgments
-**[span_0](start_span)Project Title:** Vermi-city: A Micro-Solution to Macro-Waste [span_0](end_span)  
-**[span_1](start_span)Institution:** Dayananda Sagar College of Engineering (DSCE), Bangalore[span_1](end_span)  
-**[span_2](start_span)Department:** Electronics & Communication Engineering[span_2](end_span)  
-**[span_3](start_span)Course:** Innovation and Design Thinking Lab (1BIDTL108)[span_3](end_span)  
+## 🎓 Credits & Acknowledgments
+**[span_0](start_span)Project Title**: Vermi-city: A Micro-Solution to a Macro-Waste Problem[span_0](end_span)  
+**[span_1](start_span)Institution**: Dayananda Sagar College of Engineering (DSCE), Bangalore[span_1](end_span)  
+**[span_2](start_span)Department**: Electronics & Communication Engineering[span_2](end_span)  
+**[span_3](start_span)Course**: Innovation and Design Thinking Lab (1BIDTL108)[span_3](end_span)  
 
 ### The Development Team (Batch A6):
 * **[span_4](start_span)Jia Pamelin D souza** (1DS25EC119)[span_4](end_span)
@@ -128,6 +128,6 @@ While the current prototype successfully maintains the environment, there are te
 * **[span_6](start_span)Vismaya Vishwas** (1DS25EC301)[span_6](end_span)
 * **[span_7](start_span)Shrushti Akki** (1DS25EC254)[span_7](end_span)
 
-**[span_8](start_span)Supervised by:** Dr. Sapna P J[span_8](end_span)
+**[span_8](start_span)Supervised by**: Dr. Sapna P J[span_8](end_span)
 
 ---
