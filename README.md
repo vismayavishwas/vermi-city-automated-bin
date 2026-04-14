@@ -117,17 +117,17 @@ While the current prototype successfully maintains the environment, there are te
 * **pH Level Automation:** Integrating a pH sensor and a secondary dosing pump to maintain a strictly neutral environment (pH 6.5 - 8.0).
 
 ## Credits and Acknowledgments
-**[span_0](start_span)[span_1](start_span)Project Title**: Vermi-city: A Micro-Solution to a Macro-Waste Problem[span_0](end_span)[span_1](end_span)
-**[span_2](start_span)[span_3](start_span)Institution**: Dayananda Sagar College of Engineering (DSCE), Bangalore[span_2](end_span)[span_3](end_span)
-**[span_4](start_span)Department**: Electronics and Communication Engineering[span_4](end_span)
-**[span_5](start_span)Course**: Innovation and Design Thinking Lab (1BIDTL108)[span_5](end_span)
+**Project Title**: Vermi-city: A Micro-Solution to a Macro-Waste Problem. 
+**Institution**: Dayananda Sagar College of Engineering (DSCE), Bangalore. 
+**Department**: Electronics and Communication Engineering. 
+**Course**: Innovation and Design Thinking Lab (1BIDTL108)
 
 ### The Development Team (Batch A6):
-* **[span_6](start_span)Jia Pamelin D souza** (1DS25EC119)[span_6](end_span)
-* **[span_7](start_span)Medha T G** (1DS25EC159)[span_7](end_span)
-* **[span_8](start_span)Vismaya Vishwas** (1DS25EC301)[span_8](end_span)
-* **[span_9](start_span)Shrushti Akki** (1DS25EC254)[span_9](end_span)
+* **Jia Pamelin D souza** (1DS25EC119)
+* **Medha T G** (1DS25EC159)
+* **Vismaya Vishwas** (1DS25EC301)
+* **Shrushti Akki** (1DS25EC254)
 
-**[span_10](start_span)Supervised by**: Dr. Sapna P J[span_10](end_span)
+**Supervised by**: Dr. Sapna P J
 
 ---
