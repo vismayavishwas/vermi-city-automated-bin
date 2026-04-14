@@ -117,7 +117,7 @@ While the current prototype successfully maintains the environment, there are te
 * **pH Level Automation:** Integrating a pH sensor and a secondary dosing pump to maintain a strictly neutral environment (pH 6.5 - 8.0).
 
 ## Credits and Acknowledgments
-* **Project Title**: Vermi-city: A Micro-Solution to a Macro-Waste Problem
+* **Project Title**: Vermi-city: A Micro-Solution to Macro-Waste
 
 * **Institution**: Dayananda Sagar College of Engineering (DSCE), Bangalore
 
@@ -125,7 +125,7 @@ While the current prototype successfully maintains the environment, there are te
 
 * **Course**: Innovation and Design Thinking Lab (1BIDTL108)
 
-### The Development Team (Batch A6):
+### The Development Team:
 * **Jia Pamelin D souza** (1DS25EC119)
 * **Medha T G** (1DS25EC159)
 * **Vismaya Vishwas** (1DS25EC301)
