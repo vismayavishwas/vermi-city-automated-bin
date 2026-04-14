@@ -11,7 +11,7 @@ Traditional vermicomposting requires labor-intensive manual monitoring. Reliance
 
 ## 🛠️ The Solution: Automated Control
 We developed a real-time, closed-loop control system that monitors the environment and autonomously manages actuators to keep parameters within the "Optimal Zone":
-* **Temperature:** 15-25°C
+* **Temperature:** 25.5°C
 * **Moisture:** 60-80% (equivalent to a wrung-out sponge)
 
 ## 🏗️ Hardware Architecture
